@@ -11,7 +11,7 @@ const ContactPage = () => {
                 </h1>
 
                 <div className="mt-6 flex items-center">
-                    <p className="text-[14px]">LET'S WORK TOGETHER!</p>
+                    <p className="text-[14px]">LET&apos;S WORK TOGETHER!</p>
                 </div>
 
                 <hr className="border-accent-black my-2 w-full border-t" />

@@ -56,7 +56,7 @@ const AboutPage = () => {
                 </p>
 
                 <p>
-                    Whether you're here to learn more about my academic background, explore my work, or connect professionally—welcome!
+                    Whether you&apos;re here to learn more about my academic background, explore my work, or connect professionally—welcome!
                 </p>
 
                 <hr className="border-accent-black my-2 w-full border-t" />
