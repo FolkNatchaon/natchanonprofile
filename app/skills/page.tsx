@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // React Icons
 import { FaAngleDoubleDown } from "react-icons/fa";
 
@@ -80,6 +82,21 @@ const AboutPage = () => {
                         <h3 className="text-xl font-semibold">Figma</h3>
                         <p className="mt-4">UI/UX design and prototyping.</p>
                     </div>
+                </div>
+            </div>
+
+            {/* Tools */}
+            <div className="flex flex-col gap-6 px-4 xl:px-8 mt-10 mb-10">
+                <h2 className="text-[40px] font-secondary leading-none">CERTIFICATE</h2>
+
+                <div className="relative w-full">
+                    <Image
+                        src="/Certificate.png" 
+                        alt="Certificate"
+                        width={1200} 
+                        height={850} 
+                        className="md:w-[300px] xl:w-[500px] h-auto"
+                    />
                 </div>
             </div>
         </section>
